@@ -11,6 +11,8 @@
 		31C6B0452B21FB360000E7CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C6B0442B21FB360000E7CF /* ContentView.swift */; };
 		31C6B0472B21FB390000E7CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31C6B0462B21FB390000E7CF /* Assets.xcassets */; };
 		31C6B04A2B21FB390000E7CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31C6B0492B21FB390000E7CF /* Preview Assets.xcassets */; };
+		31C6B0552B22006A0000E7CF /* GuitarCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C6B0542B22006A0000E7CF /* GuitarCard.swift */; };
+		31C6B0572B22283C0000E7CF /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C6B0562B22283C0000E7CF /* Color+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		31C6B0442B21FB360000E7CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		31C6B0462B21FB390000E7CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31C6B0492B21FB390000E7CF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		31C6B0542B22006A0000E7CF /* GuitarCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuitarCard.swift; sourceTree = "<group>"; };
+		31C6B0562B22283C0000E7CF /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +55,10 @@
 		31C6B0412B21FB360000E7CF /* ParallaxReel */ = {
 			isa = PBXGroup;
 			children = (
+				31C6B0512B2200030000E7CF /* Model */,
 				31C6B0422B21FB360000E7CF /* ParallaxReelApp.swift */,
 				31C6B0442B21FB360000E7CF /* ContentView.swift */,
+				31C6B0562B22283C0000E7CF /* Color+Extension.swift */,
 				31C6B0462B21FB390000E7CF /* Assets.xcassets */,
 				31C6B0482B21FB390000E7CF /* Preview Content */,
 			);
@@ -65,6 +71,14 @@
 				31C6B0492B21FB390000E7CF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		31C6B0512B2200030000E7CF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				31C6B0542B22006A0000E7CF /* GuitarCard.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +152,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				31C6B0452B21FB360000E7CF /* ContentView.swift in Sources */,
+				31C6B0552B22006A0000E7CF /* GuitarCard.swift in Sources */,
 				31C6B0432B21FB360000E7CF /* ParallaxReelApp.swift in Sources */,
+				31C6B0572B22283C0000E7CF /* Color+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
